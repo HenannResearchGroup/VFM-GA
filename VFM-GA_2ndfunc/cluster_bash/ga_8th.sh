@@ -1,0 +1,1 @@
+mv output.txt yourchoiceofname.rec

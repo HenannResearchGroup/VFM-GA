@@ -1,0 +1,300 @@
+
+cd GA_fort1  
+  sbatch run_ga1.sh 
+cd .. 
+  cd GA_fort2  
+  sbatch run_ga2.sh 
+cd .. 
+  cd GA_fort3  
+  sbatch run_ga3.sh 
+cd .. 
+  cd GA_fort4  
+  sbatch run_ga4.sh 
+cd .. 
+  cd GA_fort5  
+  sbatch run_ga5.sh 
+cd .. 
+  cd GA_fort6  
+  sbatch run_ga6.sh 
+cd .. 
+  cd GA_fort7  
+  sbatch run_ga7.sh 
+cd .. 
+  cd GA_fort8  
+  sbatch run_ga8.sh 
+cd .. 
+  cd GA_fort9  
+  sbatch run_ga9.sh 
+cd .. 
+  cd GA_fort10  
+  sbatch run_ga10.sh 
+cd .. 
+  cd GA_fort11  
+  sbatch run_ga11.sh 
+cd .. 
+  cd GA_fort12  
+  sbatch run_ga12.sh 
+cd .. 
+  cd GA_fort13  
+  sbatch run_ga13.sh 
+cd .. 
+  cd GA_fort14  
+  sbatch run_ga14.sh 
+cd .. 
+  cd GA_fort15  
+  sbatch run_ga15.sh 
+cd .. 
+  cd GA_fort16  
+  sbatch run_ga16.sh 
+cd .. 
+  cd GA_fort17  
+  sbatch run_ga17.sh 
+cd .. 
+  cd GA_fort18  
+  sbatch run_ga18.sh 
+cd .. 
+  cd GA_fort19  
+  sbatch run_ga19.sh 
+cd .. 
+  cd GA_fort20  
+  sbatch run_ga20.sh 
+cd .. 
+  cd GA_fort21  
+  sbatch run_ga21.sh 
+cd .. 
+  cd GA_fort22  
+  sbatch run_ga22.sh 
+cd .. 
+  cd GA_fort23  
+  sbatch run_ga23.sh 
+cd .. 
+  cd GA_fort24  
+  sbatch run_ga24.sh 
+cd .. 
+  cd GA_fort25  
+  sbatch run_ga25.sh 
+cd .. 
+  cd GA_fort26  
+  sbatch run_ga26.sh 
+cd .. 
+  cd GA_fort27  
+  sbatch run_ga27.sh 
+cd .. 
+  cd GA_fort28  
+  sbatch run_ga28.sh 
+cd .. 
+  cd GA_fort29  
+  sbatch run_ga29.sh 
+cd .. 
+  cd GA_fort30  
+  sbatch run_ga30.sh 
+cd .. 
+  cd GA_fort31  
+  sbatch run_ga31.sh 
+cd .. 
+  cd GA_fort32  
+  sbatch run_ga32.sh 
+cd .. 
+  cd GA_fort33  
+  sbatch run_ga33.sh 
+cd .. 
+  cd GA_fort34  
+  sbatch run_ga34.sh 
+cd .. 
+  cd GA_fort35  
+  sbatch run_ga35.sh 
+cd .. 
+  cd GA_fort36  
+  sbatch run_ga36.sh 
+cd .. 
+  cd GA_fort37  
+  sbatch run_ga37.sh 
+cd .. 
+  cd GA_fort38  
+  sbatch run_ga38.sh 
+cd .. 
+  cd GA_fort39  
+  sbatch run_ga39.sh 
+cd .. 
+  cd GA_fort40  
+  sbatch run_ga40.sh 
+cd .. 
+  cd GA_fort41  
+  sbatch run_ga41.sh 
+cd .. 
+  cd GA_fort42  
+  sbatch run_ga42.sh 
+cd .. 
+  cd GA_fort43  
+  sbatch run_ga43.sh 
+cd .. 
+  cd GA_fort44  
+  sbatch run_ga44.sh 
+cd .. 
+  cd GA_fort45  
+  sbatch run_ga45.sh 
+cd .. 
+  cd GA_fort46  
+  sbatch run_ga46.sh 
+cd .. 
+  cd GA_fort47  
+  sbatch run_ga47.sh 
+cd .. 
+  cd GA_fort48  
+  sbatch run_ga48.sh 
+cd .. 
+  cd GA_fort49  
+  sbatch run_ga49.sh 
+cd .. 
+  cd GA_fort50  
+  sbatch run_ga50.sh 
+cd .. 
+  cd GA_fort51  
+  sbatch run_ga51.sh 
+cd .. 
+  cd GA_fort52  
+  sbatch run_ga52.sh 
+cd .. 
+  cd GA_fort53  
+  sbatch run_ga53.sh 
+cd .. 
+  cd GA_fort54  
+  sbatch run_ga54.sh 
+cd .. 
+  cd GA_fort55  
+  sbatch run_ga55.sh 
+cd .. 
+  cd GA_fort56  
+  sbatch run_ga56.sh 
+cd .. 
+  cd GA_fort57  
+  sbatch run_ga57.sh 
+cd .. 
+  cd GA_fort58  
+  sbatch run_ga58.sh 
+cd .. 
+  cd GA_fort59  
+  sbatch run_ga59.sh 
+cd .. 
+  cd GA_fort60  
+  sbatch run_ga60.sh 
+cd .. 
+  cd GA_fort61  
+  sbatch run_ga61.sh 
+cd .. 
+  cd GA_fort62  
+  sbatch run_ga62.sh 
+cd .. 
+  cd GA_fort63  
+  sbatch run_ga63.sh 
+cd .. 
+  cd GA_fort64  
+  sbatch run_ga64.sh 
+cd .. 
+  cd GA_fort65  
+  sbatch run_ga65.sh 
+cd .. 
+  cd GA_fort66  
+  sbatch run_ga66.sh 
+cd .. 
+  cd GA_fort67  
+  sbatch run_ga67.sh 
+cd .. 
+  cd GA_fort68  
+  sbatch run_ga68.sh 
+cd .. 
+  cd GA_fort69  
+  sbatch run_ga69.sh 
+cd .. 
+  cd GA_fort70  
+  sbatch run_ga70.sh 
+cd .. 
+  cd GA_fort71  
+  sbatch run_ga71.sh 
+cd .. 
+  cd GA_fort72  
+  sbatch run_ga72.sh 
+cd .. 
+  cd GA_fort73  
+  sbatch run_ga73.sh 
+cd .. 
+  cd GA_fort74  
+  sbatch run_ga74.sh 
+cd .. 
+  cd GA_fort75  
+  sbatch run_ga75.sh 
+cd .. 
+  cd GA_fort76  
+  sbatch run_ga76.sh 
+cd .. 
+  cd GA_fort77  
+  sbatch run_ga77.sh 
+cd .. 
+  cd GA_fort78  
+  sbatch run_ga78.sh 
+cd .. 
+  cd GA_fort79  
+  sbatch run_ga79.sh 
+cd .. 
+  cd GA_fort80  
+  sbatch run_ga80.sh 
+cd .. 
+  cd GA_fort81  
+  sbatch run_ga81.sh 
+cd .. 
+  cd GA_fort82  
+  sbatch run_ga82.sh 
+cd .. 
+  cd GA_fort83  
+  sbatch run_ga83.sh 
+cd .. 
+  cd GA_fort84  
+  sbatch run_ga84.sh 
+cd .. 
+  cd GA_fort85  
+  sbatch run_ga85.sh 
+cd .. 
+  cd GA_fort86  
+  sbatch run_ga86.sh 
+cd .. 
+  cd GA_fort87  
+  sbatch run_ga87.sh 
+cd .. 
+  cd GA_fort88  
+  sbatch run_ga88.sh 
+cd .. 
+  cd GA_fort89  
+  sbatch run_ga89.sh 
+cd .. 
+  cd GA_fort90  
+  sbatch run_ga90.sh 
+cd .. 
+  cd GA_fort91  
+  sbatch run_ga91.sh 
+cd .. 
+  cd GA_fort92  
+  sbatch run_ga92.sh 
+cd .. 
+  cd GA_fort93  
+  sbatch run_ga93.sh 
+cd .. 
+  cd GA_fort94  
+  sbatch run_ga94.sh 
+cd .. 
+  cd GA_fort95  
+  sbatch run_ga95.sh 
+cd .. 
+  cd GA_fort96  
+  sbatch run_ga96.sh 
+cd .. 
+  cd GA_fort97  
+  sbatch run_ga97.sh 
+cd .. 
+  cd GA_fort98  
+  sbatch run_ga98.sh 
+cd .. 
+  cd GA_fort99  
+  sbatch run_ga99.sh 
+cd .. 
+  cd GA_fort100  
+  sbatch run_ga100.sh 
