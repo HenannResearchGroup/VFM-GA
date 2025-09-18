@@ -1,0 +1,94 @@
+ -------------GA hyperelastic V1.0--------------
+ ---------------2nd functionality---------------
+ -----------------Zicheng Yan-------------------
+ -----David L. Henann Lab, Brown University-----
+ 
+ Seireki 2025-08-08 11:29:13
+ 
+ 
+ 
+ -------------------------------------------------------------------
+ ----------------------start of info session------------------------
+ -------------------------------------------------------------------
+ ___________________________________________________________________
+ A. Priority info of current run:
+ 
+ 0. Code Mode:Debug
+ 1. Plane stress approximation of data (experimentally proven to be a must)
+ 2. Constitutive model: https://github.com/HenannResearchGroup/ElastomericFoam
+ 3. parameter number to optimize          14
+ 4. weight alpha between internal and external force   1.40000000000000     
+ 5. plane stress solver: bisection, reduced integration 1 integ pt
+ 6.1 currently utilizing 2 configs (e.g. 2 DIC exps for comp and ten separately)
+ 6.2 weight on objective function of 2nd config:   0.700000000000000     
+ ___________________________________________________________________
+ B. GA related parameters:
+ 
+ 1. nbits in binary formulation           4
+ 2. number of independent population         100
+ 3. size of each population         300
+ 4. total generation num:           80
+ 5. Selection operator: Boltzmann
+ 5.1. Max Boltzmann Temperature   60.0000000000000     
+ 5.2. Min Boltzmann Temperature  0.500000000000000     
+ 6. Crossover operator: Single Point
+ 6.1 probability of crossover on para set xrate:  0.840000000000000     
+ 6.2 probability of crossover on a single para xcon:  0.900000000000000     
+ 7. Mutation operator: single
+ 7.1 probability of mutation on para set mrate:  3.000000000000000E-002
+ 7.2 probability of mutation on a single para mcon:  0.200000000000000     
+ 7.3 number of bits in a para that mutates:           1
+ ___________________________________________________________________
+ C. Physical checks and stability parameters
+ 
+ 1. Best lives forever algorithm activated
+ 2. Dacorogna stability map check
+ 2.1 for pure shear, K1 = 0, K2 =  0.510000000000000     
+ 
+ 2.2 for simple compression, check point K1 values:
+ -0.150000000000000      -0.250000000000000      -0.350000000000000     
+ -0.450000000000000      -0.550000000000000     
+ 2.2 for simple compression, check point K2 values:
+  0.150000000000000       0.250000000000000       0.350000000000000     
+  0.450000000000000       0.550000000000000     
+ 
+ 3. Rough check (only applicable for simple comp and ten)
+ 3.1. first generation checks: monotonic (rough)
+ 3.2. Later generation checks: monotonic and volumetric (rough)
+ ___________________________________________________________________
+ D. Mechanical data input and constitutive para range
+ 
+ 1. parameter number to optimize          14
+ 2.1 input mesh 1 nnode:         416
+ 2.2 input mesh 2 nnode:         390
+ 3.1 input mesh 1 nel:         375
+ 3.2 input mesh 2 nel:         350
+ 4. input mesh node per element:           4
+ 5. integration points:           1
+ 6. input total number of frames:          30
+ 7. number of frames for first configuration          17
+ 8.1 material parameter lower range
+   82000.0000000000        153800.000000000       0.100000000000000     
+  5.000000000000000E-002  0.000000000000000E+000  5.000000000000000E-002
+   2.00000000000000       1.000000000000000E-002  5.000000000000000E-002
+   2.00000000000000        2.00000000000000        5.00000000000000     
+  1.000000000000000E-003   1.00000000000000     
+ 8.2 material parameter upper range
+   122000.000000000        233800.000000000       0.300000000000000     
+   6.00000000000000      -0.500000000000000       0.400000000000000     
+   10.0000000000000        1.00000000000000        6.00000000000000     
+   8.00000000000000        8.00000000000000        25.0000000000000     
+  0.500000000000000        6.00000000000000     
+ 9. BC type: normal experiment top bottom comp/ten (Instron)
+ 10. Ext Int Force vector size:           4
+ -------------------------------------------------------------------
+ ------------------------end of info session------------------------
+ -------------------------------------------------------------------
+ FEM ref: https://solidmechanics.org/
+ GA ref:https://link.springer.com/article/10.1007/s11042-020-10139-6
+ Rinteg ref:https://www.sciencedirect.com/science/article/pii/S0045782522004509
+ 
+ 
+ -------------------------------------------------------------------
+ ----------------------------start computing------------------------
+ -------------------------------------------------------------------
